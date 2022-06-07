@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		C2Tgame
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+	<link href="assets/css/index.css" rel="stylesheet" />
+	<link href="assets/css/mobile.css" rel="stylesheet" />
+	<link href="assets/css/OFL.txt" rel="stylesheet" />
+	<link href="assets/css/Bungee-Regular.ttf" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="assets/img/logo.png">
+	 <link rel='shortcut icon'  type="image/png"  href='assets/img/lolo-removebg-preview.png' />
+	<!-- <link
+	rel="stylesheet"
+	href="https://unpkg.com/swiper/swiper-bundle.min.css"
+	/> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 3,
+            mobile: true,
+            live: true
+        })
+        wow.init();
+    </script> -->
+
+</head>
+<body>
+
+	<div id="main">
+		
+		<section class="menu wow animate__animated animate__backInLeft">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">
+							<img width="70" src="assets/img/logo.png">
+						</a>
+						<button class="navbar-toggler buttonicon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+							<form class="d-flex none-flex justify-content-between" style="width: 100%;" >
+								<ul class="navbar-nav ">
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+											ABOUT US
+										</a>
+										<!-- id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" -->
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<li><a class="dropdown-item" style="color: #878984!important;" href="#c2t">C2T ECOSYSTEM</a></li>
+											<li><a class="dropdown-item" style="color: #878984!important;" href="#team">MY TEAMS</a></li>
+											<li><a class="dropdown-item" style="color: #878984!important;" href="#advistor">ADVISIOR</a></li>
+											<li><a class="dropdown-item" style="color: #878984!important;" href="#backerpartner">BACKER & PARTNER</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link " aria-current="page" href="#game">GAME</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#nft_library">NFT LIBRARY</a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="#news" tabindex="-1" aria-disabled="true">NEWS & EVENTS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#TOKENOMIC">TOKENOMIC</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#road_map">ROAD MAP</a>
+									</li>
+								</ul>
+								<div class="btn-game"  style="background-image: url(assets/img/svg.png);background-size: cover;font-family: 'Bungee';width: 188px;height: 41px;cursor: pointer;
+font-style: normal;font-weight: 400;font-size: 16px;    background-repeat: no-repeat;justify-content: center;
+line-height: 24px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;" >APP VIEW</div>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</section>
+		<!--  -->
+		<section>
+			<div class="banner" style="position:relative;background-image: url(assets/img/slide/s1.png);background-size: cover;">
+				<div class="">
+					<div class="banner1">
+						<div class="">
+							
+								<div class="cc-h">C2T GAME</div>
+								<div class="cc-h1">NEXT-GEN GAMING ECOSYSTEM</div>
+								<div class="cc-h2">PLAY. COLLECT. TRADE. EARN FOR REAL</div>
+							
+						</div>
+						<div class=" center">
+							<div class="opo" style="margin: 0 20px;z-index: 10;position: relative;">
+								<a href="#" style="position: relative;width: 100%;">
+									
+									<div class="btn poa" style="position:relative;z-index:-1;background-image: url(assets/img/svg.png);background-size: cover;font-family: 'Bungee';width: 180px;height: 41px;
+font-style: normal;font-weight: 400;font-size: 16px;    background-repeat: no-repeat;justify-content: center;
+line-height: 24px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;">
+										whitepaper
+									</div>
+								</a>
+							</div>
+							<div class="opo" style="margin: 0 20px;z-index: 10;position: relative;">
+								<a href="#" style="position: relative;width: 100%;">
+									<div class="btn poa" style="position:relative;z-index:-1;background-image: url(assets/img/svg.png);background-size: cover;font-family: 'Bungee';width: 180px;height: 41px;
+font-style: normal;font-weight: 400;font-size: 16px;    background-repeat: no-repeat;justify-content: center;
+line-height: 24px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;">
+										Picth desk
+									</div>
+								</a>
+							</div>
+							<div class="opo" style="margin: 0 20px;z-index: 10;position: relative;">
+								<a href="#" style="position: relative;width: 100%;">
+									<div class="btn poa" style="position:relative;z-index:-1;background-image: url(assets/img/svg.png);background-size: cover;font-family: 'Bungee';width: 180px;height: 41px;
+font-style: normal;font-weight: 400;font-size: 16px;    background-repeat: no-repeat;justify-content: center;
+line-height: 24px;display: flex;align-items: center;text-align: center;text-transform: uppercase;color: #FFFFFF;">
+										contract
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  -->
+	<section data-wow-delay="" id="news" data-wow-offset="200" class="slide1  wow animate__animated animate__backInLeft" >
+		<div class="container po"  style="">
+			<div class="text-center" style="padding: 0 17px;display: flex;justify-content: space-between;">
+				<p class="p1">
+					NEWS
+				</p>
+				<p class="p111">
+					<a href="" class="w hover" style="color: white;">VIEW ALL</a>
+				</p>
+			</div>
+			<div style="margin-top: -15px;margin-bottom: -20px;padding: 0 17px;">
+				<hr style="padding: 0 17px;">
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<img src="assets/img/item/i17.jfif">
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<img src="assets/img/item/i17.jfif">
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<img src="assets/img/item/i17.jfif">
+				</div>
+			</div>
+			
+					
+					
+				</div>
+
+				
+			</div>
+		</section>
+		<!--  -->
+		<section data-wow-offset="200" id="aboutus" class="banner2  wow animate__animated animate__bounceInRight">
+			<div class="container po" style="">
+				<div class="text-center">
+				</div>
+				<div class="text-center qee" style="padding: 0 10px;">
+					<p class="p2">
+						ABOUT US
+					</p>
+					<hr>
+				</div>
+				
+				<div class="row bff" style="padding: 0 20px;">
+					
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row">
+						
+							<div class=" po col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5" style="padding: 0;margin: 0;overflow: hidden;">
+								<img  width="100%" height="323.58" src="assets/img/item/i5.png" id="img-item">
+								<img width="100%" style="display: none;" height="323.58" src="assets/img/item/i17.png">
+								<img width="100%" style="display: none;" height="323.58" src="assets/img/item/i18.png">
+								<div class="poa try">
+									<p class="p337" id="p337">
+										Development and production of gamefi, online games, released to the international market. Import and Release world famous games.
+									</p>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 po">
+								<div>
+									<p class="p32" id="p32">
+										C2TGame is a next-gen gaming ecosystem that unlocks the full potential of the game industry through the marriage of traditional games and blockchain-powered financialization, giving players complete ownership over their in-game items. Players join our community of gamers & NFT enthusiasts on an all-in-one platform, buy limited edition NFTs, earn $C2T token through playing, and have fun.
+									</p>
+								</div>
+								<div>
+									<ul>
+										<li>
+											<a href="javascript:void(0)" class="show-next" data-id="1">
+												BLOCKCHAIN-BASED GAMES
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="show-next" data-id="2">
+												MARKETPLACE
+											</a>
+										</li>
+										<li>
+											<a href="javascript:void(0)" class="show-next" data-id="3">
+												DEFI
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+						
+					</div>
+					
+					
+				</div>
+			</div>
+		</section>
+
+		<!--  -->
+
+		<section data-wow-offset="400" id="game"  class="slide1 section review-slide ">
+			<div class="container" style="padding: 0 20px;">
+				<div class="text-center">
+					<p class="p5">
+						Games
+					</p>
+					<hr>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<a href="#" style="width: 100%;" class="row">
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<img src="assets/img/item/i6.png">
+							</div>
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 po">
+								<div>
+									<p class="p33">
+										PANDA ISLAND
+									</p>
+								</div>
+								<div>
+									<ul>
+										<li class="p34">
+											Unlike other free-to-play games, Panda Island gives you complete ownership over your in-game items. Collect rare pandas,fight monsters for C2T tokens and sell NFTs to other players on the C2T marketplace.
+										</li>
+									</ul>
+									<div class="p35">
+										MORE DETAIL
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<a href="#" style="width: 100%;" class="row">
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<img src="assets/img/item/i16.png">
+							</div>
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 po">
+								<div>
+									<p class="p33">
+										C2T POKER
+									</p>
+								</div>
+								<div>
+									<ul>
+										<li class="p34">
+											Participate in tournaments, show your talent at different levels to receive extremely valuable prizes.
+										</li>
+									</ul>
+									<div class="p35">
+										MORE DETAIL
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<a href="#" style="width: 100%;" class="row">
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<img src="assets/img/item/i15.png">
+							</div>
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 po">
+								<div>
+									<p class="p33">
+										lucky Spin
+									</p>
+								</div>
+								<div>
+									<ul>
+										<li class="p34">
+											Unlike other free-to-play games, Panda Island gives you complete ownership over your in-game items. Collect rare pandas,fight monsters for C2T tokens and sell NFTs to other players on the C2T marketplace.
+										</li>
+									</ul>
+									<div class="p35">
+										MORE DETAIL
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+						<a href="#" style="width: 100%;" class="row">
+							<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+								<img src="assets/img/item/i9.png">
+							</div>
+							<div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 po">
+								<div>
+									<p class="p33">
+										c2t Lottery
+									</p>
+								</div>
+								<div>
+									<ul>
+										<li class="p34">
+											The results of each period will be randomly determined by Chanlink VRF2 technology.
+										</li>
+										<li class="p34">
+											With minimum prize x 400 ticket price.
+										</li>
+									</ul>
+									<div class="p35">
+										MORE DETAIL
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</section>
+	<section data-wow-offset="300" id="nft_library"  class="banner3 lib">
+		<div class="container po" style="">
+			<div>
+				<p class="p1">
+					NFT library
+				</p>
+				<hr>
+			</div>
+			<div class="row center-flex" style="justify-content: space-between;">
+				<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3" style="background-image: url(assets/img/slide/svg.png);background-size: cover;">
+					<div class="text-center" style="margin-top: 60px;">
+						<img width="150" height="150" src="assets/img/item/i10.png">
+					</div>
+					<div>
+						<p class="p37">
+							Stella
+						</p>
+					</div>
+					<div style="background-image: url(assets/img/svg/svg4.png);background-size: cover;width: 120px;" class="p36">
+						<a href="#" class="p36">
+							buy NFT
+						</a>
+					</div>
+					<div>
+						<hr>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3" style="background-image: url(assets/img/slide/svg.png);background-size: cover;">
+					<div class="text-center" style="margin-top: 60px;">
+						<img width="150" height="150" src="assets/img/item/i12.png">
+					</div>
+					<div>
+						<p class="p37">
+							Tank
+						</p>
+					</div>
+					<div style="background-image: url(assets/img/svg/svg4.png);background-size: cover;width: 120px;" class="p36">
+						<a href="#" class="p36">
+							buy NFT
+						</a>
+					</div>
+					<div>
+						<hr>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3" style="background-image: url(assets/img/slide/svg.png);background-size: cover;">
+					<div class="text-center" style="margin-top: 60px;">
+						<img width="150" height="150" src="assets/img/item/i13.png">
+					</div>
+					<div>
+						<p class="p37">
+							Cooper
+						</p>
+					</div>
+					<div style="background-image: url(assets/img/svg/svg4.png);background-size: cover;width: 120px;" class="p36">
+						<a href="#" class="p36">
+							buy NFT
+						</a>
+					</div>
+					<div>
+						<hr>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-3" style="background-image: url(assets/img/slide/svg.png);background-size: cover;">
+					<div class="text-center" style="margin-top: 60px;">
+						<img width="150" height="150" src="assets/img/item/i14.png">
+					</div>
+					<div>
+						<p class="p37">
+							Tuker
+						</p>
+					</div>
+					<div style="background-image: url(assets/img/svg/svg4.png);background-size: cover;width: 120px;" class="p36">
+						<a href="#" class="p36">
+							buy NFT
+						</a>
+					</div>
+					<div>
+						<hr>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+	</section>
+
+	<!--  -->
+
+	<section data-wow-offset="300" id="TOKENOMIC" class="banner4 wow animate__animated  animate__zoomInDown">
+		<div class="container po" style="">
+			<div>
+				<p class="p1">
+					Tokenomic
+				</p>
+				<hr>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<img style="width: 100%;" src="assets/img/item/i2.png">
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<img style="width: 100%;" class="imgbta" src="assets/img/item/i11.png">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--  -->
+	<section data-wow-offset="400" id="c2t" class="banner5 wow animate__animated  animate__rubberBand">
+		<div class="container po" style="">
+			<div>
+				<p class="p1">
+					c2t ecosystem
+				</p>
+				<hr>
+				
+			</div>
+			<div class="row center-flex" style="justify-content: center;">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12col-xl-12">
+					<img style="width: 100%;text-align: center;"  src="assets/i1.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  -->
+	<section data-wow-offset="200" id="road_map" class="banner6  wow animate__animated  animate__jackInTheBox">
+		<div class="container po" style="">
+			<div>
+				<p class="p1">
+					Road map
+				</p>
+				<hr>
+			</div>
+			<div class="row center-flex po" style="justify-content: center;padding-bottom: 30px;text-align:center;">
+				<div class="item col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<div style="    padding: 30px 20px 0 20px;">
+						<img  src="assets/img/svg/svg5.png">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--  -->
+	<!--  -->
+	<section data-wow-offset="400" id="team" class="banner12 wow animate__animated  animate__zoomInUp">
+		<div class="container po" style="">
+			<div>
+				<p class="p11">
+					My teams
+				</p>
+				<hr>
+			</div>
+			<div class="row center-flex po" style="justify-content: center;">
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg/svg.png">
+					</div>
+					<div class="p2">
+						Canh BUI 
+					</div>
+				
+					<div>
+						<p class="p1">
+							CEO - Co Founder
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg3.png">
+					</div>
+					<div class="p2">
+						Trung vu
+					</div>
+				
+					<div>
+						<p class="p1">
+							CCO - Co Founder
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg4.png">
+					</div>
+					<div class="p2">
+						ky nguyen 
+					</div>
+				
+					<div>
+						<p class="p1">
+							CTO
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg/svg2.png">
+					</div>
+					<div class="p2">
+						anh duc 
+					</div>
+				
+					<div>
+						<p class="p1">
+							CMO
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg5.png">
+					</div>
+					<div class="p2">
+						minh dang
+					</div>
+				
+					<div>
+						<p class="p1">
+							CM
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg6.png">
+					</div>
+					<div class="p2">
+						KIET NGUYEN
+					</div>
+				
+					<div>
+						<p class="p1">
+							 Game Designers.
+						</p>
+						
+					</div></a>
+				</div>
+
+
+				
+
+			</div>
+		</div>
+	</section>
+	<!--  -->
+
+	<!--  -->
+	<section data-wow-offset="400" id="advistor" class="banner12 wow animate__animated  animate__zoomInUp">
+		<div class="container po" style="" id="backerpartner">
+			<div>
+				<p class="p11">
+					advisior
+				</p>
+				<hr>
+			</div>
+			<div class="row center-flex po" style="justify-content: center;">
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg7.png">
+					</div>
+					<div class="p2">
+						Ryan ho 
+					</div>
+				
+					<div>
+						<p class="p1">
+							Co - Founder & Head of Marketing
+						</p>
+						
+					</div></a>
+				</div>
+
+				<div class="item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<a><div class=" center po">
+						
+						<img class="img1" src="assets/img/svg8.png">
+					</div>
+					<div class="p2">
+						Tonny pham
+					</div>
+				
+					<div>
+						<p class="p1">
+							The Master of Economics
+						</p>
+						
+					</div></a>
+				</div>
+
+				
+
+
+				
+
+			</div>
+		</div>
+	</section>
+	<!--  -->
+	<section data-wow-offset="200" id="#backerpartner" class="banner8  wow animate__animated  animate__slideInLeft">
+		<div class="container po">
+			<div>
+				<p class="p1 po" style="color: #FF9C4D;">
+					Backer & Partner
+				</p>
+				<hr>
+			</div>
+			<div class="row po" style="padding-bottom: 50px;">
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s1.png">
+				</div>
+				<div class="item col-6 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+					<img style="width: 100%;" src="assets/img/brand/s2.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  -->
+	<section data-wow-offset="300"   class="footer  wow animate__animated animate__lightSpeedInRight">
+		<footer class="container po">
+			
+			<div class="row">
+
+				<div class="item row col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+					<div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" style="margin-bottom:30px">
+						<div class="vv" style="margin-top: -16px;">
+							<img width="130" src="assets/img/logo.png">
+							<div>
+								<p class="p90">
+									Is not just for fun
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" style="margin-bottom:30px">
+						<div >
+							<a><p class="p1">
+								help
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								FAQs
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								Contact Support
+							</p></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" style="margin-bottom:30px">
+						<div >
+							<a><p class="p1">
+								About
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								About us
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								Careers
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								News
+							</p></a>
+						</div>
+					</div>
+					<div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3" style="margin-bottom:30px">
+						<div >
+							<a><p class="p1">
+								More
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								Get me
+							</p></a>
+						</div>
+						<div>
+							<a><p class="p2">
+								Smart contract
+							</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="item col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+					<div>
+						<p class="p3">
+							join our community
+						</p>
+					</div>
+					<div class="row d-flex icon-ff" style="justify-content:center;margin-bottom: 43px;">
+						<a class="icon-f icon-f1">
+							<div class="w">
+								<i style="color: white!important;" class="fab fa-twitter"></i>
+							</div>
+						</a>
+						<a class="icon-f icon-f2">
+							<div class="w">
+								<i style="color: white!important;"  class="fab fa-facebook-f"></i>
+							</div>
+						</a>
+						<a class="icon-f icon-f3">
+							<div class="w">
+								<i style="color: white!important;"  class="fab fa-youtube"></i>
+							</div>
+						</a>
+						<a class="icon-f icon-f4">
+							<div class="w">
+								<i style="color: white!important;"  class="fab fa-discord"></i>
+							</div>
+						</a>
+						<a class="icon-f icon-f5">
+							<div class="w">
+								<i style="color: white!important;"  class="fab fa-telegram-plane"></i>
+							</div>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+			
+		</footer>
+	</section>
+	<section class="banner13">
+		<div class="container">
+			<div class="row d-flex justify-content-between mt-20">
+				<div class="f col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<span>
+						Terms and Conditions
+					</span>
+					<span>
+						.
+					</span>
+					<span>
+						Privacy Policy
+					</span>
+					<span>
+						.
+					</span>
+					<span>
+						@2022 C2T
+					</span>
+				</div>
+				<div class="option f col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+					<span>
+						Language: 
+					</span>
+					<select>
+						<option>English</option>
+						<option>VN</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script> -->
+    <script type="text/javascript" script="assets/js/plugin/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" script="assets/js/plugin/ac-alert.js"></script>
+    <script type="text/javascript" script="assets/js/plugin/ajax.js"></script>
+    <script type="text/javascript" script="assets/js/plugin/check.js"></script>
+    <script type="text/javascript" script="assets/js/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    	var getitem = document.querySelectorAll('.show-next');
+    	for(var i = 0 ; i < getitem.length  ; i++){
+    		getitem[i].addEventListener("click",function (){
+    			console.log("hello")
+    			console.log(this.dataset.id)
+    			if(this.dataset.id == 1){
+    				document.getElementById('img-item').src = "assets/img/item/i5.png"
+    				document.getElementById("p32").innerHTML = "C2TGame is a next-gen gaming ecosystem that unlocks the full potential of the game industry through the marriage of traditional games and blockchain-powered financialization, giving players complete ownership over their in-game items. Players join our community of gamers & NFT enthusiasts on an all-in-one platform, buy limited edition NFTs, earn $C2T token through playing, and have fun.";
+    				document.getElementById("p337").innerHTML = "Development and production of gamefi, online games, released to the international market. Import and Release world famous games.";
+    			}
+    			if(this.dataset.id == 3){
+    				document.getElementById('img-item').src = "assets/img/item/i18.png"
+
+    				document.getElementById("p32").innerHTML = "C2TGame is a next-gen gaming ecosystem that unlocks the full potential of the game industry through the marriage of traditional games and blockchain-powered financialization, giving players complete ownership over their in-game items. Players join our community of gamers & NFT enthusiasts on an all-in-one platform, buy limited edition NFTs, earn $C2T token through playing, and have fun.";
+    				document.getElementById("p337").innerHTML = "A suite of DeFi products that help to facilitate your financial activities and boost your income.";
+    			}
+    			if(this.dataset.id == 2){
+    				document.getElementById('img-item').src = "assets/img/item/i17.png"
+
+    				document.getElementById("p32").innerHTML = "C2TGame is a next-gen gaming ecosystem that unlocks the full potential of the game industry through the marriage of traditional games and blockchain-powered financialization, giving players complete ownership over their in-game items. Players join our community of gamers & NFT enthusiasts on an all-in-one platform, buy limited edition NFTs, earn $C2T token through playing, and have fun.";
+    				document.getElementById("p337").innerHTML = "Trade, auction, or rent NFTs with thousand of NFT enthusiasts worldwide. ";
+    			}
+    		})
+    	}
+    	var swiper = new Swiper(".mySwiper1", {
+    		spaceBetween: 20,
+    		loop: true,
+    		navigation: {
+    			nextEl: ".swiper-button-next",
+    			prevEl: ".swiper-button-prev",
+    		},
+    		watchSlidesProgress: true,
+    		breakpoints: {
+    			640: {
+    				slidesPerView: 1,
+    				spaceBetween: 5,
+    				watchSlidesProgress: true,
+    			},
+    			768: {
+    				slidesPerView: 1,
+    				spaceBetween: 20,
+    				watchSlidesProgress: true,
+
+    			},
+    			1024: {
+    				slidesPerView: 2,
+    				spaceBetween: 0,
+    				watchSlidesProgress: true,
+
+    			},
+    		},
+    	});
+
+    	var swiper = new Swiper(".mySwiper2", {
+    		
+    		watchSlidesProgress: true,
+    		
+    		breakpoints: {
+    			640: {
+    				slidesPerView: 5,
+    				spaceBetween: 0,
+    				watchSlidesProgress: true,
+    			},
+    			768: {
+    				slidesPerView: 4,
+    				spaceBetween: 0,
+    				watchSlidesProgress: true,
+
+    			},
+    			1024: {
+    				slidesPerView: 6,
+    				spaceBetween: 0,
+    				watchSlidesProgress: true,
+
+    			},
+    		},
+    	});
+    	var a = document.querySelectorAll(".show-item");
+			for(var i = 0;i < a.length; i++){
+			  a[i].addEventListener("click",function(){
+			    show();
+			    console.log('test');
+			  })
+			}
+			function show(){
+			  Swal.fire({ 
+			  			width: '80%',
+			        title: 'Captain ',
+			        confirmButtonText: 'VIEW MORE',
+        			confirmButtonAriaLabel: 'Thumbs up, great!',
+        			showDenyButton: true,
+        			denyButtonText: `BUY NFT`,
+			        html: `
+								<div class="">
+									<div class="row">
+										
+									<div class="item col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding: 35px;">
+										<img style="width: 60%;height: auto;" class="img-re he" src="assets/img/item/i1.png">
+									</div>
+									<div class="item col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+										<p class="c-f" style="text-align:left">
+											Name: Captain 
+										</p>
+										<p class="ww">
+											<div class="ppp">Rare: R7</div> 
+											<div class="ppp">Turn: 4/2</div> 
+											<div class="ppp">Energy: 120/120</div> 
+											<div class="ppp">Sex: Male</div> 
+											<div class="ppp">Reward per turn: 140 ~ 160 C2T</div> 
+										</p>
+										<div class="row d-flex justify-content-between">
+											<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+												
+											</div>
+											<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+												
+											</div>
+										</div>
+									</div>
+							
+									</div>
+								</div>
+			        `,
+			   }).then((result) => {
+		        if (result.isConfirmed) {
+		            // Swal.fire('Saved!', '', 'success')
+		        } else if (result.isDenied) {
+		            Swal.fire('Hello', '', 'info')
+		        }
+		    })
+			}
+
+
+			var a = document.querySelectorAll(".show_game");
+			for(var i = 0;i < a.length; i++){
+			  a[i].addEventListener("click",function(){
+			    show1();
+			    console.log('test');
+			  })
+			}
+			function show1(){
+			  Swal.fire({ 
+			  			width: '80%',
+			        title: 'Captain ',
+			        
+			        html: `
+								<div class="">
+									<div class="row">
+										
+									<div class="item col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6" style="padding: 35px;">
+										<img style="width: 60%;height: auto;" class="img-re he" src="assets/img/item/i1.png">
+									</div>
+									<div class="item col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+										<p class="c-f" style="text-align:left">
+											Name: Captain 
+										</p>
+										<p class="ww">
+											<div class="ppp">Rare: R7</div> 
+											<div class="ppp">Turn: 4/2</div> 
+											<div class="ppp">Energy: 120/120</div> 
+											<div class="ppp">Sex: Male</div> 
+											<div class="ppp">Reward per turn: 140 ~ 160 C2T</div> 
+										</p>
+										<div class="row d-flex justify-content-between">
+											<div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+												
+											</div>
+											<div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+												
+											</div>
+										</div>
+									</div>
+							
+									</div>
+								</div>
+			        `,
+			   }).then((result) => {
+		        if (result.isConfirmed) {
+		            // Swal.fire('Saved!', '', 'success')
+		        } else if (result.isDenied) {
+		            Swal.fire('Hello', '', 'info')
+		        }
+		    })
+			}
+    </script>
+    <style type="text/css">
+    	.container .a2000{
+				margin-bottom: 30px;margin-top: -13px;
+			}
+    </style>
+  </body>
+  </html>

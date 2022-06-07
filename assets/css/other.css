@@ -1,0 +1,7 @@
+.banner3:after{
+	background-image: none;
+}
+.po.col-12.col-sm-6.col-md-4.col-lg-2.col-xl-2{
+    /* margin: 20px; */
+    margin: 35px 40px!important;
+}
